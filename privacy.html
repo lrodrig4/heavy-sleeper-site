@@ -5,48 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy - Heavy Sleeper</title>
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1c1c1e}
-    a{color:#0a84ff}
-    h1,h2{line-height:1.2}
+    :root{color-scheme:dark;--bg:#0a0e1a;--panel:#111827;--text:#e8e6e1;--muted:#8b9dc3;--accent:#f59e5b;--line:#283247}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;max-width:780px;margin:0 auto;padding:48px 22px 72px;line-height:1.65;color:var(--text);background:var(--bg)}
+    a{color:var(--accent)} h1,h2{line-height:1.2} h1{font-size:2.4rem} h2{margin-top:2rem}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px;margin:20px 0}.muted{color:var(--muted)}
   </style>
 </head>
 <body>
   <h1>Heavy Sleeper Privacy Policy</h1>
-  <p>Last updated: June 10, 2026</p>
+  <p class="muted">Last updated: July 12, 2026</p>
 
-  <p>Heavy Sleeper is a local-first alarm planning app. Alarm plans, bedtime checklist state, notes, wake history, and premium state are stored on your device so the app can power wake routines and morning insights.</p>
+  <div class="card">
+    <strong>Local-first by design.</strong> Alarm plans, mission settings, bedtime checklist state, notes, and wake history stay on your device. Heavy Sleeper does not require an account and does not send this private wake content to the developer or advertisers.
+  </div>
 
   <h2>Information the app uses</h2>
   <ul>
-    <li>Alarm schedules, wake-plan settings, and wake-session history</li>
-    <li>Bedtime checklist completion state and night notes entered by you</li>
-    <li>Notification permission status, if you choose to enable local wake alerts</li>
+    <li>Alarm schedules, wake-stack settings, missions, and wake-session history</li>
+    <li>Bedtime checklist completion and optional night notes you enter</li>
+    <li>Alarm and notification permission status</li>
     <li>Purchase entitlement status provided by Apple StoreKit</li>
-    <li>Optional one-time location access for local weather, if you request weather in the app</li>
   </ul>
 
   <h2>How information is used</h2>
   <ul>
-    <li>To schedule and manage wake routines on your device</li>
-    <li>To show readiness, consistency, and wake-history insights inside the app</li>
-    <li>To restore premium access and purchase state through Apple StoreKit</li>
-    <li>To request a local weather forecast when you choose to use the morning weather feature</li>
+    <li>To schedule AlarmKit alarms and on-device backup notifications</li>
+    <li>To run wake missions and show progress, readiness, and wake-history insights</li>
+    <li>To restore premium access and subscription state through Apple StoreKit</li>
   </ul>
 
-  <h2>Data sharing</h2>
-  <p>Heavy Sleeper does not send alarm notes, wake routines, bedtime entries, or analytics events to the developer, ad networks, or third-party analytics providers in version 1.0.</p>
-  <p>If you use the optional weather feature, approximate latitude and longitude are sent to Open-Meteo to return a forecast. Heavy Sleeper does not create an account for this feature and does not store weather-location history on an external server.</p>
+  <h2>Advertising</h2>
+  <p>The free tier may show Google AdMob banner ads on noncritical screens and optional rewarded ads when you choose a temporary unlock. Google and its partners may process device identifiers, advertising data, product interaction data, coarse location derived from network information, and diagnostics to serve, measure, secure, and limit ads. Google’s User Messaging Platform is used to request any privacy choices required for your region.</p>
+  <p>Heavy Sleeper does not provide alarm labels, alarm times, notes, mission answers, photos, wake routines, or wake history to Google AdMob. Premium removes ads. You can revisit available ad privacy choices from Settings.</p>
+  <p>Learn more in <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</p>
 
-  <h2>Notifications</h2>
-  <p>If you grant notification permission, Heavy Sleeper schedules local notifications on your device for wake drills and backup prompts.</p>
+  <h2>Analytics</h2>
+  <p>The current app does not send custom analytics events to the developer or a third-party analytics service. Product events used by the interface are handled locally.</p>
+
+  <h2>Alarms and notifications</h2>
+  <p>If you allow access, Heavy Sleeper schedules system alarms through Apple AlarmKit and supplemental local notifications on your device. Permission choices can be changed in iOS Settings.</p>
 
   <h2>Purchases</h2>
-  <p>Premium purchases use Apple StoreKit. Subscription billing, renewal management, and purchase history are handled by Apple.</p>
+  <p>Premium purchases use Apple StoreKit. Apple handles billing, renewal management, transaction history, and refunds under Apple’s terms.</p>
 
-  <h2>User controls</h2>
-  <p>You can disable notifications or location permission in iOS Settings. You can reset local Heavy Sleeper data from inside the app.</p>
+  <h2>Retention and deletion</h2>
+  <p>Local wake data remains on the device until you reset it in Heavy Sleeper Settings or delete the app. Heavy Sleeper has no developer-hosted user account or cloud database to delete.</p>
 
-  <h2>Support</h2>
-  <p>For help with Heavy Sleeper, visit the <a href="support.html">support page</a>.</p>
+  <h2>Children</h2>
+  <p>Heavy Sleeper is a general-audience utility and is not directed to children under 13.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy can be sent to <a href="mailto:luketrodriguez1@gmail.com">luketrodriguez1@gmail.com</a>. For product help, visit the <a href="support.html">support page</a>.</p>
 </body>
 </html>
